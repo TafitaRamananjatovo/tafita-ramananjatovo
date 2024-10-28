@@ -64,7 +64,7 @@ export default function Intro() {
         >
           <span className="font-bold">Hello, I'm Tafita.</span> I'm a{" "}
           <span className="font-bold">Python full-stack developer</span> with{" "}
-          <span className="font-bold">2 years of experience</span>. I specialize in
+          <span className="font-bold">2 years of experiences</span>. I specialize in
           building <span className="italic">websites and applications</span> with a
           focus on <span className="underline">Django</span>.
         </motion.h1>
