@@ -64,7 +64,7 @@ export default function Intro() {
         >
           <span className="font-bold">Hello, I'm Tafita.</span> I'm a{" "}
           <span className="font-bold">Python full-stack developer</span> with{" "}
-          <span className="font-bold">2 years of experiences</span>. I specialize in
+          <span className="font-bold">3 years of experiences</span>. I specialize in
           building <span className="italic">websites and applications</span> with a
           focus on <span className="underline">Django</span>.
         </motion.h1>
@@ -90,7 +90,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/TafitaRamananjatovo.pdf"
+          href="/Tafita_Ramananjatovo.pdf"
           download
         >
           Download CV{" "}
