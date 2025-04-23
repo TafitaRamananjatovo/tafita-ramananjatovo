@@ -54,24 +54,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "Internal User Session Tracker",
+    description: "Rust-based internal system to manage and monitor user sessions within an enterprise network. Supports session tracking and controlled disconnections.",
+    tags: ["Rust", "System Monitoring", "Session Management"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    title: "Quantum Key Distribution (CV-QKD)",
+    description: "A Python-based academic project simulating quantum key distribution using continuous variables. Focuses on secure communication using quantum mechanics.",
+    tags: ["Python", "Quantum", "Encryption", "Security"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Plaque Detection System",
+    description: "Computer vision project to detect and analyze plaque in medical images. Built with Python and machine learning tools for image processing.",
+    tags: ["Python", "Computer Vision", "Healthcare", "ML"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "CSV Product Importer with Pandas",
+    description: "A public tool for importing and exporting CSV data to manage WooCommerce product listings. Automates product creation and updates using Python's Pandas library.",
+    tags: ["Python", "Pandas", "CSV", "WooCommerce"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
