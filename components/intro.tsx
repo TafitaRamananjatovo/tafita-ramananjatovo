@@ -10,6 +10,10 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
+const startYear = 2022;
+const currentYear = new Date().getFullYear();
+const experienceYears = currentYear - startYear;
+
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -64,7 +68,7 @@ export default function Intro() {
         >
           <span className="font-bold">Hello, I'm Tafita.</span> I'm a{" "}
           <span className="font-bold">Python full-stack developer</span> with{" "}
-          <span className="font-bold">3 years of experiences</span>. I specialize in
+          <span className="font-bold">{experienceYears} years of experiences</span>. I specialize in
           building <span className="italic">websites and applications</span> with a
           focus on <span className="underline">Django</span>.
         </motion.h1>
