@@ -29,7 +29,7 @@ export const sendEmail = async (formData: FormData) => {
       from: "Contact Form {https://tafita-ramananjatovo.vercel.app/#contact}",
       to: "tafita.ramananjatovo@gmail.com",
       subject: "Message from contact form",
-      reply_to: senderEmail,
+      replyTo: senderEmail,
       react: React.createElement(ContactFormEmail, {
         message: message,
         senderEmail: senderEmail,
