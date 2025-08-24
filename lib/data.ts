@@ -35,8 +35,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Digital project Manager",
-    location: " Simpifia, LYON",
+    title: "Digital Project Manager",
+    location: "Simplifia, LYON",
     description:
       "I graduated after several years of study and immediately found a job as a contractor for Simplifia, based in Madagascar.",
     icon: React.createElement(LuGraduationCap),
@@ -44,7 +44,7 @@ export const experiencesData = [
   },
   {
     title: "Full-Stack Python Developer",
-    location: "Tempus Donum,  PARIS",
+    location: "Tempus Donum, PARIS",
     description:
       "Currently, I work as a freelance full-stack Python developer. My tech stack includes Python, React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
@@ -86,17 +86,12 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
 ] as const;
